@@ -20,6 +20,7 @@ module.exports = {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
     },
   },

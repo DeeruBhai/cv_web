@@ -7,18 +7,18 @@ import Projects from "./Components/Projects";
 function App() {
   return (
     <>
-      <div className=" max-container border-[#fff]">
+      <div className=" max-container border-[#fff] ">
         <NavBar />
-        <section id="home" className="h-[100vh]">
+        <section id="home" className="h-[100vh]  ">
           <Home />
         </section>
-        <section id="about" className="h-[100vh]">
+        <section id="about" className="h-[100vh] bg-gray-100">
           <About />
         </section>
         <section id="projects" className="h-[100vh]">
           <Projects />
         </section>
-        <section id="contact" className="h-[100vh]">
+        <section id="contact" className="h-[100vh] bg-gray-100">
           <Contact />
         </section>
       </div>
