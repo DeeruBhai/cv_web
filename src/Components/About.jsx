@@ -1,6 +1,8 @@
+import Timeline from "./Timeline";
+
 function About() {
   return (
-    <div className="flex flex-col w-full h-full">
+    <div className="flex flex-col w-full h-full items-center">
       <div className="flex flex-col md:flex-row justify-center items-center max-container w-full pt-20 gap-8">
         <div className="md:w-[30%] w-[50%] pr-4 ">
           <img
@@ -26,17 +28,40 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center gap-4">
-        <div className="px-4 md:border-r-2  border-black border-b-2">
+      <div className="flex flex-col md:flex-row items-center gap-4 pt-16">
+        <div className="px-4 md:border-r-2  border-black max-md:border-b-2">
           Tech Stack
         </div>
-        <div className="flex flex-row">
-          <img src="icons8-html-5.svg" alt="html" />
-          <img src="icons8-css-logo.svg" alt="css" />
-          <img src="icons8-javascript.svg" alt="html" />
-          <img src="icons8-react.svg" alt="html" className="w-[42px] " />
-          <img src="icons8-tailwind-css.svg" alt="html" className="" />
+        <div className="flex flex-row gap-2">
+          <img
+            src="icons8-html-5.svg"
+            alt="html"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
+          <img
+            src="icons8-css-logo.svg"
+            alt="css"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
+          <img
+            src="icons8-javascript.svg"
+            alt="html"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
+          <img
+            src="icons8-react.svg"
+            alt="html"
+            className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
+          />
+          <img
+            src="icons8-tailwind-css.svg"
+            alt="html"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
         </div>
+      </div>
+      <div className="pt-16 flex-col justify-center items-center ">
+        <Timeline />
       </div>
     </div>
   );

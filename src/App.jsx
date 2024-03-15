@@ -12,7 +12,7 @@ function App() {
         <section id="home" className="h-[100vh]  ">
           <Home />
         </section>
-        <section id="about" className="h-[100vh] bg-gray-100">
+        <section id="about" className=" bg-gray-100">
           <About />
         </section>
         <section id="projects" className="h-[100vh]">
