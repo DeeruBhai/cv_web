@@ -1,6 +1,8 @@
 import React from "react";
 import { FaSchool, FaMagnifyingGlass } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
+// import deerajimg from "/public/deeraj.png";
+
 const navLinks = [
   { label: "Home", link: "/" },
   { label: "Certificates", link: "/certificates" },
@@ -43,14 +45,20 @@ export const journeyData = [
 export const projectData = [
   {
     title: "Nike E-Commerce",
-    description: "Computer Science",
+    description:
+      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     tag: ["React", "Redux", "Tailwind CSS"],
-    imgUrl: "deeraj.png",
+    imgUrl: "deeraj.jpg",
+    git: "https://github.com/DeeruBhai/Nike.git",
+    live: "https://deerajalagarsamy-nike.netlify.app/",
   },
   {
     title: "Crypt Trading",
-    description: "Computer Science",
+    description:
+      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     tag: ["React", "React-Three-Fibre", "Tailwind CSS"],
-    imgUrl: "deeraj.png",
+    imgUrl: "deeraj.jpg",
+    git: "https://github.com/DeeruBhai/Crypto.git",
+    live: "https://deerajalagarsamy-crypt.netlify.app/",
   },
 ];

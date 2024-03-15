@@ -29,7 +29,7 @@ function Timeline() {
             iconStyle={{
               background: "white",
               borderColor: "rgba(156, 163, 175, 0.5)",
-              color: "rgb(59, 130, 246)",
+              color: "#3b82f6",
             }}
           >
             <h3 className="font-normal font-montserrat capitalize ">

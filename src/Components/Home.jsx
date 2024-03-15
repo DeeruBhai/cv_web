@@ -21,12 +21,19 @@ function Home() {
           <p className="font-palanquin text-xl font-medium pt-2 pb-4">
             Front-end Developer
           </p>
-          <button className="p-2 font-montserrat text-black hover:bg-zinc-800 bg-white border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-white ">
+          <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
             Resume
           </button>
           <div className="flex flex-row gap-2 pt-4">
-            <IoLogoLinkedin className="text-3xl" />
-            <FaGithub className="text-3xl" />
+            <a href="https://github.com/DeeruBhai" target="_blank">
+              <FaGithub className="text-3xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/deeraj-alagarsamy-153167257/"
+              target="_blank"
+            >
+              <IoLogoLinkedin className="text-3xl" />{" "}
+            </a>
           </div>
         </div>
       </div>
