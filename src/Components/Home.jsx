@@ -21,9 +21,11 @@ function Home() {
           <p className="font-palanquin text-xl font-medium pt-2 pb-4">
             Front-end Developer
           </p>
-          <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
-            Resume
-          </button>
+          <a href="Deeraj Alagarsamy V R.pdf" target="_blank">
+            <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
+              Resume
+            </button>
+          </a>
           <div className="flex flex-row gap-2 pt-4">
             <a href="https://github.com/DeeruBhai" target="_blank">
               <FaGithub className="text-3xl" />
