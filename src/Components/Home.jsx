@@ -8,9 +8,9 @@ function Home() {
       <div className="flex flex-col md:flex-row  justify-center gap-8 h-full items-center pb-16  absolute z-20 max-container  ">
         <div className="md:w-[25%] w-[50%] pr-6">
           <img
-            src="deeraj.jpg"
+            src="deeraj_photo.png"
             alt="deeraj"
-            className="rounded-full  outline outline-offset-2 outline-[4px] border-black"
+            className="rounded-full bg-yellow-400 outline outline-offset-2 outline-[4px] border-black"
           />
         </div>
         <div className="flex flex-col  items-center ">
@@ -21,7 +21,7 @@ function Home() {
           <p className="font-palanquin text-xl font-medium pt-2 pb-4">
             Front-end Developer
           </p>
-          <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
+          <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
             Resume
           </button>
           <div className="flex flex-row gap-2 pt-4">

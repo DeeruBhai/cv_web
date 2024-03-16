@@ -15,7 +15,7 @@ function App() {
         <section id="about" className=" bg-gray-100">
           <About />
         </section>
-        <section id="projects" className="p-8">
+        <section id="projects" className="py-12">
           <Projects />
         </section>
         <section id="contact" className="h-[100vh] bg-gray-100">

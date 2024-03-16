@@ -13,9 +13,9 @@ function Projects() {
           <>
             <div
               key={val.title}
-              className=" relative flex justify-center flex-col md:flex-row items-center mt-6"
+              className=" relative flex justify-center flex-col md:flex-row items-center mt-6 bg-gray-100 rounded-xl border-black/5 border-2 "
             >
-              <div className="md:max-w-[32rem] h-full w-full bg-gray-100 border-black/5 border-2  md:pr-8 rounded-l-xl flex">
+              <div className="md:max-w-[32rem] md:h-full w-full  md:pr-8  flex">
                 <div className="py-4 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-1/2 flex flex-col ">
                   <h2 className="text-2xl font-semibold ">{val.title}</h2>
                   <p className="mt-2 leading-relaxed text-gray-700 text-wrap">
@@ -48,7 +48,7 @@ function Projects() {
               <img
                 src={val.imgUrl}
                 alt={val.title}
-                className="md:w-[20.25rem] w-full rounded-lg shadow-2xl "
+                className="md:w-[40.25rem] w-full rounded-lg shadow-2xl "
               />
             </div>
           </>

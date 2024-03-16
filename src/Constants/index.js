@@ -48,7 +48,7 @@ export const projectData = [
     description:
       "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     tag: ["React", "Redux", "Tailwind CSS"],
-    imgUrl: "deeraj.jpg",
+    imgUrl: "nike.png",
     git: "https://github.com/DeeruBhai/Nike.git",
     live: "https://deerajalagarsamy-nike.netlify.app/",
   },
@@ -57,7 +57,7 @@ export const projectData = [
     description:
       "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     tag: ["React", "React-Three-Fibre", "Tailwind CSS"],
-    imgUrl: "deeraj.jpg",
+    imgUrl: "crypt.png",
     git: "https://github.com/DeeruBhai/Crypto.git",
     live: "https://deerajalagarsamy-crypt.netlify.app/",
   },
