@@ -24,14 +24,14 @@ function Contact() {
       .then(
         () => {
           setSuccess(true);
-          toast("Mail sent");
+          toast.success("Mail sent", { position: "bottom-center" });
           formnameref.current.value = "";
           formemailref.current.value = "";
           formmsgref.current.value = "";
         },
         (error) => {
           setError(true);
-          toast("Try again later");
+          toast.error("Try again later", { position: "bottom-center" });
         }
       );
   };
