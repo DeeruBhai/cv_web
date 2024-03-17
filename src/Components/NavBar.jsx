@@ -20,7 +20,7 @@ function NavBar() {
             <li key={item.label}>
               <a
                 href={item.link}
-                className="font-rubik leading-normal text-lg text-[#040404] hover:text-orange-400 "
+                className="font-rubik leading-normal text-lg text-[#040404] hover:text-[#ff1b6b]"
               >
                 {item.label}
               </a>

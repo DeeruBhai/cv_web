@@ -126,7 +126,7 @@ function Contact() {
             className="bg-transparent border-2 border-[#3b83f678] px-2 py-1 rounded-md w-full"
             ref={formmsgref}
           />
-          <button className="py-1 w-2/6 bg-[#FFC700] rounded-full font-semibold hover:w-full hover:rounded-md duration-300">
+          <button className="py-1 w-2/6 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-full font-semibold hover:w-full hover:rounded-md duration-300">
             Submit
           </button>
 

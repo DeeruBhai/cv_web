@@ -10,7 +10,7 @@ function Home() {
           <img
             src="deeraj_photo.png"
             alt="deeraj"
-            className="rounded-full bg-yellow-400 outline outline-offset-2 outline-[4px] border-black"
+            className="rounded-full bg-yellow-400  outline outline-offset-2 outline-[4px] "
           />
         </div>
         <div className="flex flex-col  items-center ">
@@ -22,19 +22,19 @@ function Home() {
             Front-end Developer
           </p>
           <a href="Deeraj Alagarsamy V R.pdf" target="_blank">
-            <button className="p-2 font-montserrat text-black hover:bg-[#FFC700] bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
+            <button className="p-2 font-montserrat text-black hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
               Resume
             </button>
           </a>
           <div className="flex flex-row gap-2 pt-4">
             <a href="https://github.com/DeeruBhai" target="_blank">
-              <FaGithub className="text-3xl" />
+              <FaGithub className="text-3xl hover:text-orange-500" />
             </a>
             <a
               href="https://www.linkedin.com/in/deeraj-alagarsamy-153167257/"
               target="_blank"
             >
-              <IoLogoLinkedin className="text-3xl" />{" "}
+              <IoLogoLinkedin className="text-3xl hover:text-blue-600" />{" "}
             </a>
           </div>
         </div>

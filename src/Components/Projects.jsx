@@ -33,12 +33,12 @@ function Projects() {
                   </ul>
                   <div className="flex flex-row gap-4 mt-4">
                     <a href={val.git} target="_blank">
-                      <button className="bg-black/[0.7] hover:bg-[#f95647] px-3 py-1 text-[0.7rem] uppercase tracking-wider flex justify-center items-center gap-2 text-white rounded-full">
+                      <button className="bg-black/[0.7] hover:bg-gradient-to-r from-pink-500 hover:to-yellow-500 px-3 py-1 text-[0.7rem] uppercase tracking-wider flex justify-center items-center gap-2 text-white rounded-full">
                         <span>Git link</span> <FaGithub className="text-xl" />
                       </button>
                     </a>
                     <a href={val.live} target="_blank">
-                      <button className="bg-black/[0.7] hover:bg-[#fe0222] px-3 py-1 flex justify-center items-center gap-2 text-[0.7rem] uppercase tracking-wider text-white rounded-full">
+                      <button className="bg-black/[0.7] hover:bg-gradient-to-r from-green-400 to-blue-500 px-3 py-1 flex justify-center items-center gap-2 text-[0.7rem] uppercase tracking-wider text-white rounded-full">
                         Live Demo <FaArrowCircleRight className="text-xl" />
                       </button>
                     </a>
