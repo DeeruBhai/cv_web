@@ -46,7 +46,7 @@ export const journeyData = [
     institution: "Venzo Technologies",
     location: "Madurai, TamilNadu",
     description:
-"I transform design concepts into user-friendly web interfaces using React JS. I collaborate with the development team, troubleshoot issues, and stay updated on emerging technologies."    icon: React.createElement(FaMagnifyingGlass),
+"I transform design concepts into user-friendly web interfaces using React JS. I collaborate with the development team, troubleshoot issues, and stay updated on emerging technologies.",    icon: React.createElement(FaMagnifyingGlass),
     date: "Apr 2024- Present",
   },
 ];
