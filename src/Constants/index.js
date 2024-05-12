@@ -37,9 +37,17 @@ export const journeyData = [
     institution: "Quantanics Tech Serv Pvt Ltd",
     location: "Madurai, TamilNadu",
     description:
-      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
+      "Plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     icon: React.createElement(FaMagnifyingGlass),
     date: "2022-2023",
+  },
+  {
+    title: "Frontend Developer Intern",
+    institution: "Venzo Technologies",
+    location: "Madurai, TamilNadu",
+    description:
+"I transform design concepts into user-friendly web interfaces using React JS. I collaborate with the development team, troubleshoot issues, and stay updated on emerging technologies."    icon: React.createElement(FaMagnifyingGlass),
+    date: "Apr 2024- Present",
   },
 ];
 export const projectData = [
