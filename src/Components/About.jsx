@@ -23,7 +23,7 @@ function About() {
             My passion is to create and develop a clean UI/UX for my users.
           </p>
           <p className="text-sm font-palanquin text-slate-700">
-            My main stack currently is React.js in combination with Tailwind
+            My main stack currently is React.js in combination with Tailwind CSS and Material UI
             CSS.
           </p>
         </div>
@@ -55,6 +55,16 @@ function About() {
           />
           <img
             src="icons8-tailwind-css.svg"
+            alt="html"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
+          <img
+            src="material-ui-svgrepo-com.svg"
+            alt="html"
+            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+          />
+          <img
+            src="firebase-svgrepo-com.svg"
             alt="html"
             className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
           />

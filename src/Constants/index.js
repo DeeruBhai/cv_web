@@ -1,3 +1,4 @@
+//firebase deploy --only hosting:deeraj-alagarsamy-portfolio
 import React from "react";
 import { FaSchool, FaMagnifyingGlass } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
@@ -33,20 +34,20 @@ export const journeyData = [
     date: 2022,
   },
   {
-    title: "Software Tester",
+    title: "Software Developer",
     institution: "Quantanics Tech Serv Pvt Ltd",
     location: "Madurai, TamilNadu",
     description:
-      "Plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
+      "A software developer working on both webpages and firmware for IoT devices designs responsive, user-friendly web interfaces using React JS, while also developing and optimizing low-level firmware in languages like C++ and Python.",
     icon: React.createElement(FaMagnifyingGlass),
     date: "2022-2023",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Frontend Developer ",
     institution: "Venzo Technologies",
     location: "Madurai, TamilNadu",
     description:
-"I transform design concepts into user-friendly web interfaces using React JS. I collaborate with the development team, troubleshoot issues, and stay updated on emerging technologies.",    icon: React.createElement(FaMagnifyingGlass),
+      "I transform design concepts into user-friendly web interfaces using React JS. I collaborate with the development team, troubleshoot issues, and stay updated on emerging technologies.", icon: React.createElement(FaMagnifyingGlass),
     date: "Apr 2024- Present",
   },
 ];
